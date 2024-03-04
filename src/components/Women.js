@@ -4,8 +4,10 @@ import { Link, Outlet } from 'react-router-dom';
 const Women = () => {
   return (
     <div>
-      <div>
+      <main>
+      <div>Women Items:</div>
         <ul>
+           
           <li>
             <Link to='Groming'>Grooming</Link>
           </li>
@@ -19,8 +21,8 @@ const Women = () => {
             <Link to='Jwellery'>Jewellery</Link>
           </li>
         </ul>
-      </div>
-      
+      </main>
+      <Outlet/>
     </div>
   );
 };
