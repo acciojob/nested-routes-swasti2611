@@ -6,6 +6,7 @@ const Header = () => {
     <div>
     <main>
       <div>
+      <nav>
         <ul>
             <li>
                 <Link to='/'>Home</Link>
@@ -14,6 +15,7 @@ const Header = () => {
                 <Link to='/women'>Women</Link>
             </li>
         </ul>
+        </nav>
       </div>
       </main>
     </div>
