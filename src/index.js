@@ -14,7 +14,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
-          <Route path="Women" element={<Women />} >
+          <Route path="women" element={<Women />} >
             <Route path="Shirt"  element={<Shirt/>}/>
             <Route path="Groming"  element={<Groming/>}/>
             <Route path="Trouser"  element={<Trouser/>}/>
